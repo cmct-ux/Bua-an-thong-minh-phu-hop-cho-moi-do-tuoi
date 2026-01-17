@@ -7,13 +7,19 @@
 </head>
 <body>
 
-<div class="card">
-  <h2>🍽 Bữa ăn phù hợp</h2>
-  <button onclick="randomMeal()">🎲 Bữa ăn ngẫu nhiên</button>
-  <div id="meal"></div>
-</div>
+<div class="book">
+  <div class="page active">
+    <h2>🍱 Bữa ăn phù hợp</h2>
 
-<p class="thanks">💚 Cảm ơn vì đã dùng phần mềm của chúng tôi !!!</p>
+    <button onclick="randomMeal()">🎲 Bữa ăn ngẫu nhiên</button>
+
+    <div id="mealBox"></div>
+
+    <p class="thanks">💚 Cảm ơn vì đã dùng phần mềm của chúng tôi !!!</p>
+
+    <button onclick="backHome()">🔄 Nhập độ tuổi khác</button>
+  </div>
+</div>
 
 <script src="script.js"></script>
 </body>
