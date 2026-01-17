@@ -1,0 +1,52 @@
+body {
+  background: linear-gradient(120deg,#fde68a,#60a5fa);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.book {
+  width: 700px;
+  margin: 60px auto;
+  perspective: 1500px;
+}
+
+.page {
+  background: #fffaf0;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+  animation: flip 0.8s;
+}
+
+@keyframes flip {
+  from { transform: rotateY(-90deg); opacity: 0; }
+  to { transform: rotateY(0); opacity: 1; }
+}
+
+input, select, button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+
+button {
+  background: #22c55e;
+  color: white;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #16a34a;
+}
+
+img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.thanks {
+  color: #065f46;
+  font-weight: bold;
+}
