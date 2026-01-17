@@ -7,18 +7,19 @@
 </head>
 <body>
 
-<div class="card">
-  <h1>🍽️ Bữa ăn thông minh xin chào !!!</h1>
-  <p>Nhập độ tuổi & giới tính để tìm dinh dưỡng phù hợp</p>
+<div class="book">
+  <div class="page active">
+    <h1>📘 Bữa ăn thông minh xin chào !!!</h1>
+    <p>Nhập độ tuổi & giới tính</p>
 
-  <input type="number" id="age" placeholder="Tuổi (1–100)">
-  
-  <select id="gender">
-    <option value="male">Nam</option>
-    <option value="female">Nữ</option>
-  </select>
+    <input type="number" id="age" placeholder="Tuổi (1–100)">
+    <select id="gender">
+      <option value="male">Nam</option>
+      <option value="female">Nữ</option>
+    </select>
 
-  <button onclick="goNutrition()">Tiếp tục</button>
+    <button onclick="toNutrition()">Mở sách ▶</button>
+  </div>
 </div>
 
 <script src="script.js"></script>
